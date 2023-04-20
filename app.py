@@ -41,7 +41,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" ライフコーチイングチャットボット")
-st.image("coch.jpg")
+st.image("coch.png")
 st.write("コーチング体験をして下さい。いくつかの質問に答えてその後、解決策を提案します。まずはこの質問に答えて下さい。悩み事や改善したい事は？")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
